@@ -19,6 +19,12 @@ If the user then does not meet this requirements in invalid is printed
 
 call the function using console log to run the program
 
+## (NB) Project set up for all the Three challenges
+Make sure you have created repository then after you have checked your work and its perfectly running follow the following steps
+Git add .
+Git commit -m"//comment"
+Git push 
+
 
 ## (SpeedDetector)
 This is a program that accepts speed input then checks if the speed limit (70)has been reached if the speed has been exceeded then a point is given.A point is given for every 5 kms above the speed limit which is 70. If the driver accumulates points to 12 then his licence is suspended otherwise if the driver does not reach the maximum speed then ok is returned
