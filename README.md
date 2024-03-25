@@ -28,10 +28,10 @@ The first code is to prompt the user to enter the care speed using the following
 const speed = prompt(" Enter car speed  " )
 
 
-Create a function called carspeed with variable speed in brackets
+Create a function called car speed with variable speed in brackets
 inside the function use if statement to check if the car speed is less than 70 or if the maximum speed has been exceeded.
-if the speed limit has not been exceeded Ok is returned but if it has been exceeded it calculates the how much speed has been exceeded.for every 5km above average a point is given
-if the points accumilate to 12 then the drivers licence is suspended
+if the speed limit has not been exceeded Ok is returned but if it has been exceeded it calculates the how much speed has been exceeded.for every 5km above speedLImit  a point is given
+if the points accumulate to 12 then the drivers license is suspended
 
 function CarSpeed(speed) {
     if (speed< 70) //
@@ -44,7 +44,7 @@ function CarSpeed(speed) {
 
            if (points<=12){//
            }
-
+}
 function is then called using a callback method
 
 
@@ -62,18 +62,19 @@ Several function are then nested in the net salary function calculating the dedu
  function netSalary(grossSalary){
 
 function calcPayee(grossSalary){//function to calculate payee
-    return ((grossSalary+benefit)*0.03)
+
 
 }
 function CalcNHIF(grossSalary){//function to calculate NHIF
 
-   return grossSalary*0.02 }
-
+}
 
    function CalcNSSF(grossSalary){ //function to calculate NSSF
-   return  grossSalary*0.02
+
    }
 
    NSSFDeduction , NHIFDeduction and payee  is then initialized
-   A method called result is then created whuch calculates the netsalary
+ }
+   A method called result is then created which calculates the netsalary
+      const result = grossSalary - NHIFDeductions-NSSFDeductions-Payee 
    Console log is then used to call the function

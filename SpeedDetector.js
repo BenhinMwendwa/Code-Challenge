@@ -8,11 +8,11 @@ function CarSpeed(speed) {
     { 
         return "OK"
     } else 
-        points= ((speed - 70)/5)//points is calculated after the maximum speed has been passed..
-        //this calculated by taking the initial speed of the car minus the speed limit then divide the out put by 5 to get total points
+        points= Math.floor((speed - 70)/5)//points is calculated after the maximum speed has been passed..
+        //this calculated by taking the initial speed of the car minus the speed limit then divide the output by 5 to get total points
 
 
-           if (points<=12){//if the point is less 12 then its returned but if its more than 12 License is suspended
+           if (points<12){//if the point is less 12 then its returned but if its 12 and more License is suspended
 return points;
            }
 
